@@ -1,0 +1,8 @@
+CC=gcc
+CFLAGS=-Wall -Wextra -pthread -o trading_system trading_system.c
+
+all: trading_system
+
+clean:
+	rm -f trading_system
+
